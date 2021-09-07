@@ -28,21 +28,30 @@
           <a class="nav-link" href="#">SHOP</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">COLLECTIONtion</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">COLLECTION</a>
             
     
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Wood Work</a></li>
-            <li><a class="dropdown-item" href="#">Home Decor</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <div style = "width:800px;">
+              <span>
+                <li><a class="dropdown-item" href="#">Wood Work</a></li>
+                <li><a class="dropdown-item" href="#">Home Decor</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </span>
+              <span>
+                <li><img class= "dropdown-item img" src="img/nav-1.jpg"/></li>
+              </span>
+
+            </div>
+
           </ul>
         </li>
       </ul>
       <form class="d-flex">
         <input id = "search-el"  class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button id = "searchButton-el" class="btn fa fa-search" type="submit"></button>
-      </form>
+        <button id = "searchButton-el" class="btn fa fa-search" type="submit" onclick="search()"></button>
+      </form> 
       <button id = "userButton-el" class="btn fa fa-user"  type=""></button>
       <button id = "favButton-el" class="btn fa fa-heart" type=""></button>
       <button id = "cartButton-el" class="btn fa fa-shopping-cart" type=""></button>

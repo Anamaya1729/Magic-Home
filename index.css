@@ -15,3 +15,28 @@ nav{
 }
 
 
+
+#searchButton-el{
+    display: none;
+}
+
+#search-el{
+    border-radius: 20px;
+    padding-left: 20;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
+}
+
+input#search-el:hover + button#searchButton-el{
+    display:inline;
+}
+input#search-el:focus + button#searchButton-el{
+    display:inline;
+}
+input#search-el:active + button#searchButton-el{
+    display:inline;
+}
+#searchButton-el:active{
+    display: inline;
+}
